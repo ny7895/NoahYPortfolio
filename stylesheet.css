@@ -1,0 +1,8 @@
+img {
+    height: 90px;
+    width: 100px;
+    image-rendering: auto;
+    pointer-events: auto;
+    display: inline;
+    justify-content: space-evenly;
+    }
