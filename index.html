@@ -1,44 +1,136 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="stylesheet.css" rel="stylesheet">
-        <title> Noah Ybarra Portfolio.</title>
-    </head>
-    <body style="background-color:rgb(182, 178, 178);">
-    <h1 style="text-align:center">
-        Hello and Welcome to my portfolio that is currently utilizing AWS.
-    </h1>
-    <p>How was this website made? Well it is currently stored in a Amazon S3 Bucket that enables static website hosting. I will be utilizing Route 53 to register a domain. This website has a CI/CD pipeline. Whenever i make a change and push changes to my main branch it sends a webhook to AWS to let it know to start a pipleline to automatically update my website.</p>
-    <nav>
-        <ul>
-            <li><a href="#about me"> About Me</a></li>
-            <li><a href="#hobbies"> Hobbies</a></li>
-            <li><a href="#goals"> Goals</a></li>
-            <li><a href="#skills"> Skills</a></li>
-            <li><a href="#links"> Links</a></li>
-        </ul>
-    </nav>
-    <h2 div id="about me" style="text-align:center"> About me</h2>
-    <p style="text-align:center"> I would like to introduce myself. My name is Noah Ybarra i am currently practicing as a Medical Assistant serving Veterans.
+<head>
+<title>Noah Ybarra Portfolio </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>My Portfolio</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
+      <a href="#Skills" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Skills</a>
+      <a href="#Contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/zscdqzcc.json"
+    trigger="hover"
+    style="width:75px;height:75px">
+</lord-icon>
+      <h1>About Me</h1>
+      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:30%">
+      <div class="w3-left-align w3-padding-large">
+        <p> I would like to introduce myself. My name is Noah Ybarra i am currently practicing as a Medical Assistant serving Veterans.
         I have a wife and 2 daughters that i spend time with on the weekends when im not working.
         I recently completed a Certificate course offered by Coursera and IBM for DevOps Engineering/Software Engineering.
-        I study and learn as much as I can everyday for Cloud Engineering and DevOps to expand my knowledge in this everchanging field.
-    </p>
-    <h4 div id="hobbies" style="text-align:center"> Hobbies</h4>
-        <p style="text-align:center"> I enjoy spending time with my family. I enjoy plants and gardening. I also love playing games with my daughter. Cars are also a interest of mine.</p>
-    <h4 div id="goals" style="text-align:center"> Goals </h4>
+        I study and learn as much as I can everyday for Cloud Engineering and DevOps to expand my knowledge in this everchanging field.</p>
+       	<p> I enjoy spending time with my family. I enjoy sneakers, and plants</p>
+ 
         <ul>
-            <li>Obtain AWS Cloud practitioner certification</li>
-            <li>Learn a new programming language</li>
-            <li>Build a portfolio website</li>
-            <li>Learn a new CI/CD tool</li>
-            <li>Obtain AWS DevOps Engineer certification</li>
-        </ul>
-    <div id="skills" div/>
-    <h3>
-        Here is a list of my skills.
-    </h3>
-        <ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/jcsudnpn.json"
+    trigger="hover"
+    style="width:75px;height:75px">
+</lord-icon>
+      <h2>My Work</h2>
+      <p>Some of my latest projects.</p>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+      </div>
+      <div class="w3-">
+        <a href="https://github.com/ny7895/Devops-Capstone-Project" target="_blank"><img src="GitHub_Repo_logo.png" alt="DevOps Capstone Project"/><br>
+    <a id="githubrepo"> <a href="https://github.com/ny7895/NoahYPortfolio" target="_blank"><img src="GitHub_Repo_logo.png" alt="Github Repo for Website"/></a><br>
+      </div>
+    </div><br>
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/zncllhmn.json"
+    trigger="hover"
+    style="width:75px;height:75px">
+</lord-icon>
+      <h2>Resume</h2>
+      <p>A draft from my CV</p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>2022-Current</td>
+            <td>Medical Assistant</td>
+            <td>Optum Server, Albuquerque, New Mexico</td>
+          </tr>
+          <tr>
+            <td>2020-2022</td>
+            <td>Medical Assistant</td>
+            <td>New Mexico Orthopaedics, Albuquerque, New Mexico</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2017-2020</td>
+            <td>Certified Clinical Medical Assistant</td>
+            <td>UNiversity of New Mexico Hospitals, Albuquerque, New Mexico</td>
+          </tr>
+          <tr>
+            <td>2017-2017</td>
+            <td>Medical Assistant Externship</td>
+            <td>Juan Tabo Family Medicine, Albuerque, New Mexico</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2022-2023</td>
+            <td>DevOps Engineer/Software Engineer Certificate</td>
+            <td>Coursera/IBM</td>
+          </tr>
+          <tr class="w3-hide-medium">
+            <td>2016-2017</td>
+            <td>Certificate for Medical Assisting</td>
+            <td>Pima Medical Institute, Albuquerque, New Mexico</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="Skills">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/zlyxhzar.json"
+    trigger="hover"
+    style="width:75px;height:75px">
+</lord-icon><h1>Skills</h1>
+      <ul>
             <li>CSS</li>
             <li>HTML</li>
             <li>Python</li>
@@ -58,8 +150,39 @@
             <li>RESTful API's </li>
             <li>AGILE/SCRUM </li>
         </ul>
-    <h4 div id="links" style="text-align:center">Links</h4>
-    <a id="githublogo"> <a href="https://github.com/ny7895" target="_blank"><img src="GitHub-logo.png" alt="Github profile"/></a>
-    <a id="linkedin"> <a href="https://www.linkedin.com/in/noah-ybarra" target="_blank"><img src="Linkedin_logo.png" alt="linkedin profile"/></a>
-    <a id="githubrepo"> <a href="https://github.com/ny7895/NoahYPortfolio" target="_blank"><img src="GitHub_Repo_logo.png" alt="Github Repo for Website"/></a><br>
-    </html>
+      
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+    <id="Contact">
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/pkmkagva.json"
+    trigger="hover"
+    style="width:75px;height:75px">
+</lord-icon>
+      <h1>Contact me</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+	<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/tftaqjwp.json"
+    trigger="hover"
+    style="width:50px;height:50px">
+</lord-icon> 505-228-8912 <br>
+        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/ehfubvwr.json"
+    trigger="hover"
+    style="width:50px;height:50px">
+</lord-icon> noahy78951@gmail.com <br>
+	 <a <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/hbvyhtse.json"
+    trigger="hover"
+    style="width:50px;height:50px">
+</lord-icon> <a href="https://www.linkedin.com/in/noah-ybarra" target="_blank"> Linkedin</a>    </div>
+  </div>
+</div>
+</body>
+</html>
